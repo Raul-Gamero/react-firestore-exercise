@@ -2,8 +2,8 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDk-Ba3_yHSVD8-jZR5IvysGL__OJRKN7A",
-  authDomain: "my-songs-app.firebaseapp.comMAIN",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN, 
   projectId: "my-songs-app-c436e",
 };
 
