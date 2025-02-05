@@ -1,3 +1,5 @@
+import "../styles/SongItem.css";
+
 const SongItem = ({ song, deleteSong }) => {
     return (
       <li>

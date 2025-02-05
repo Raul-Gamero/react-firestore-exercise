@@ -1,5 +1,6 @@
 import AddSongForm from "./components/AddSongForm";
 import SongList from "./components/SongList";
+import "./styles/App.css";
 
 const App = () => {
   return (

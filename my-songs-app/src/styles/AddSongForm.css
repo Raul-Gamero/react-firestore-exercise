@@ -1,0 +1,14 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+    color: blue;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+    color: blue;
+  }

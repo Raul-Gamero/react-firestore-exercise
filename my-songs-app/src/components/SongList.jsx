@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { db } from "../firebaseConfig";
 import { collection, onSnapshot, deleteDoc, doc } from "firebase/firestore";
 import SongItem from "./SongItem";
+import "../styles/SongList.css";
 
 const SongList = () => {
   const [songs, setSongs] = useState([]);

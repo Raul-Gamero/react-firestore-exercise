@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { db } from "../firebaseConfig";
 import { collection, addDoc } from "firebase/firestore";
+import "../styles/AddSongForm.css";
 
 const AddSongForm = () => {
   const [title, setTitle] = useState("");
